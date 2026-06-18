@@ -1,1 +1,1 @@
-export default "my value";
+export default "my value is";
