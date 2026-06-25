@@ -81,4 +81,22 @@ Debugger attached.
 8. e350
 9. escalade
 Waiting for the debugger to disconnect...
-[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hccd..[?2004l
+zsh: command not found: cd..
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-01-nodejs % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-01-nodejs % [K[?2004hlls[?2004l
+level-01-node-command		level-05-debug-terminal
+level-02-nodejs-script		level-06-debugger-controls
+level-03-no-dom			level-07-array-traversal
+level-04-error-handling		level-08-reusable-function
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-01-nodejs % [K[?2004hllevel -02 2[?2004l
+zsh: command not found: level-02
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-01-nodejs % [K[?2004hllfeve   l  ccd level-03 2-nodejs-script[1m/[0m [K[A[75C[K[1B[K[A[75C[?2004l[1B[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-02-nodejs-script % [K[?2004hccd  c  ccd level-02-         c  lls[?2004l
+instructions.md	script.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-02-nodejs-script % [K[?2004hnnode  script[?2004l
+Debugger attached.
+To run the JS files in the terminal, complete the task then type node + file.
+use the cd command to navigate to specific folder and and node to run the file 
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-02-nodejs-script % [K[?2004h; 
