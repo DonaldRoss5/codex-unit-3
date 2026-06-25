@@ -1,0 +1,84 @@
+Script started on Wed Jun 24 21:40:09 2026
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hnnode script[?2004l
+Debugger attached.
+Waiting for the debugger to disconnect...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/script.js:30
+  for (let index = 0; index < anyArray.length; index++);
+                              ^
+
+ReferenceError: anyArray is not defined
+    at showItems [90m(file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/[39mscript.js:30:31[90m)[39m
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/[39mscript.js:37:1
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hd sscs  nnode script[?2004l
+Debugger attached.
+Waiting for the debugger to disconnect...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/script.js:31
+  const item = anyArray[index];
+                        ^
+
+ReferenceError: index is not defined
+    at showItems [90m(file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/[39mscript.js:31:25[90m)[39m
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/[39mscript.js:37:1
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hnnode script js  [?2004l
+Debugger attached.
+Waiting for the debugger to disconnect...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/script.js:28
+  const item = anyArray[index];
+                        ^
+
+ReferenceError: index is not defined
+    at showItems [90m(file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/[39mscript.js:28:25[90m)[39m
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-08-reusable-function/[39mscript.js:33:1
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hnnode script[?2004l
+Debugger attached.
+1. ford
+2. toyota
+3. bmw
+4. mercedes
+5. gmc
+6. cheverolet
+7. mazda
+8. lexus
+9. porsche
+10. cadillac
+1. camry
+2. pruis
+3. 535i
+4. focus
+5. mustand
+6. 335i
+7. e300
+8. e350
+9. escalade
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004hnnode script[?2004l
+Debugger attached.
+1. camry
+2. pruis
+3. 535i
+4. focus
+5. mustand
+6. 335i
+7. e300
+8. e350
+9. escalade
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-08-reusable-function % [K[?2004h
