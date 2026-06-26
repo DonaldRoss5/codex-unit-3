@@ -1,3 +1,4 @@
-import { message1 } from "./messages.js";
+import { message1, message2, greet } from "./messages.js";
 
 console.log(message1);
+console.log(message2);
