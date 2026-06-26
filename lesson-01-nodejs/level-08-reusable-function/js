@@ -99,4 +99,93 @@ Debugger attached.
 To run the JS files in the terminal, complete the task then type node + file.
 use the cd command to navigate to specific folder and and node to run the file 
 Waiting for the debugger to disconnect...
-[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-02-nodejs-script % [K[?2004h; 
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-02-nodejs-script % [K[?2004h; ccdc    cd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-01-nodejs % [K[?2004hccd level-03-no-dom[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnno de script[?2004l
+Debugger attached.
+Attempting to access browser features...
+Waiting for the debugger to disconnect...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:2
+localStorage.setItem("myState", "Louisiana");
+             ^
+
+TypeError: localStorage.setItem is not a function
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:2:14
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-01-nodejs % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004hlls[?2004l
+codex-unit-3.code-workspace	lesson-03-react
+lesson-01-nodejs		package.json
+lesson-02-npm			test-messages.min.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004hlls[?2004l
+codex-unit-3.code-workspace	lesson-03-react
+lesson-01-nodejs		package.json
+lesson-02-npm			test-messages.min.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004hlls[?2004l
+codex-unit-3.code-workspace	lesson-03-react
+lesson-01-nodejs		package.json
+lesson-02-npm			test-messages.min.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004hlls[?2004l
+codex-unit-3.code-workspace	lesson-03-react
+lesson-01-nodejs		package.json
+lesson-02-npm			test-messages.min.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004hd lls[?2004l
+codex-unit-3.code-workspace	lesson-03-react
+lesson-01-nodejs		package.json
+lesson-02-npm			test-messages.min.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro codex-unit-3 % [K[?2004hccd lesson-02-npm[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-02-npm % [K[?2004hlls[?2004l
+level-01-exports-imports	level-06-npmjs-website
+level-02-default-imports	level-07-npm-packages
+level-03-named-imports		level-08-dependencies
+level-04-node-modules		level-09-module-repository
+level-05-npm-command		level-10-gitignore
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-02-npm % [K[?2004hlleve  l  [?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-02-npm % [K[?2004hllcl  ccd lebel   vel-01-exports-imports[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hlls[?2004l
+greet.js	instructions.md	showNames.js
+index.js	names.js	stats.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hccd nemal    ame.js[?2004l
+cd: no such file or directory: name.js
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004haaca  ccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro lesson-02-npm % [K[?2004hccd level-01-exports-imports[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hnnode names[?2004l
+Debugger attached.
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hnnode names.hs  s js[?2004l
+Debugger attached.
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hnnode l names[?2004l
+Debugger attached.
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hnndoe   n ndo n node index[?2004l
+Debugger attached.
+Hello, Frontend Developer! Welcome to the Exports & Imports demo.
+
+A few math facts about [33m3[39m and [33m7[39m
+Sum: 10
+Product: 21
+Average: 5
+
+Famous names:
+1. Ada
+2. Babbage
+3. Turing
+4. Lovelace
+5. Knuth
+6. Dijkstra
+7. Hopper
+8. Shafi
+9. Lamport
+10. Grace
+
+ Export and importing code seperates them into smaller, readable files.
+Waiting for the debugger to disconnect...
+[1m[7m%[27m[1m[0m                                                                            [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-01-exports-imports % [K[?2004hj
