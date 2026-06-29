@@ -1,0 +1,84 @@
+Script started on Tue Jun 23 10:30:12 2026
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hsscript    s  ccd scriopt   pt .js[?2004l
+cd: not a directory: script.js
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnndoe sv cript[?2004l
+zsh: command not found: ndoe
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnnode s c crop  opt   iop  pt[?2004l
+Attempting to access browser features...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:2
+localStorage.setItem("Louisiana");
+             ^
+
+TypeError: localStorage.setItem is not a function
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:2:14
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnnode script.j [Ks[?2004l
+Attempting to access browser features...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:2
+localStorage.setItem("Louisiana");
+             ^
+
+TypeError: localStorage.setItem is not a function
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:2:14
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnnode script.j [Ks[?2004l
+Attempting to access browser features...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:2
+localStorage.setItem("Monroe", "Louisiana");
+             ^
+
+TypeError: localStorage.setItem is not a function
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:2:14
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnndoe  n  nnode scipr t    ri  criptl .h [Kjjsj [K[A[30C[K[1B[K[A[30C .j [Ks[?2004l
+Attempting to access browser features...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:2
+localStorage.setItem("Monroe", "Louisiana");
+             ^
+
+TypeError: localStorage.setItem is not a function
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:2:14
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnndoe  n node script.j [Ks[?2004l
+Attempting to access browser features...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:4
+    city: result.city,
+          ^
+
+ReferenceError: result is not defined
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:4:11
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004hnndoe s   n node script.j [Ks[?2004l
+Attempting to access browser features...
+file:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/script.js:4
+  city: result.city,
+        ^
+
+ReferenceError: result is not defined
+    at [90mfile:///Users/dwayneross/Coding/Level%203/codex-unit-3/lesson-01-nodejs/level-03-no-dom/[39mscript.js:4:9
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:437:25)[39m
+    at async node:internal/modules/esm/loader:639:26
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)[39m
+
+Node.js v25.9.0
+[1m[7m%[27m[1m[0m                               [0m[27m[24m[Jdwayneross@Dwaynes-MacBook-Pro level-03-no-dom % [K[?2004h

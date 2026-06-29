@@ -7,3 +7,6 @@ export function stats(a, b) {
   console.log(`Product: ${product}`);
   console.log(`Average: ${average}\n`);
 }
+
+
+NOTES: Review how to NUMBER when using console.log() and running script in terminal.
