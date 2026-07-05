@@ -18,7 +18,7 @@ Knowing the difference between NodeJS and JavaScript will help you understand wh
 
 - `localStorage` and `document` are objects that comes from web browsers.
 - Because the script is not attached to an HTML file, it has no access to the DOM.
-- [DOM reference](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#what_is_a_dom_tree)
+- [DOM reference](https://developer.mozilla.org/en-US/docs/Web/APId/Document_Object_Model#what_is_a_dom_tree)
 
 ## Usage Tips
 
