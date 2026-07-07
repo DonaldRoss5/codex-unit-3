@@ -1,4 +1,4 @@
-# Custom Hook Return
+# Custom Hook Return Values
 
 ## Objective
 
@@ -30,7 +30,7 @@ Custom hooks can accept parameters and return values that are useful for React c
 18. View the page. It should not work properly, and it should show an error in the console.
 19. Let `useSecret` take in the parameter `secretKey`. The `secretKey` parameter will match the `name` (or `id`) attribute of the `input` tag and the key used for `sessionStorage`
 20. In `useSecret`, replace the key for `sessionStorage` with the `secretKey` variable.
-21. In `handleSubmit`, let `value` be `form.elements[secretKey].value`. This is bracket syntax that replaces properties with variables.
+21. In `handleSubmit`, let `value` be `form.elements[secretKey].value`. This is bracket notation that replaces properties with variables.
 22. In `Main`, give `useSecret` the new `name` (or `id`).
 23. View the page to make sure it runs without errors.
 24. Once again, change the `name` (or `id`) attribute of the `input` tag, then give `useSecret` the new `name` (or `id`).
@@ -43,8 +43,8 @@ Custom hooks can accept parameters and return values that are useful for React c
 ## More Information
 
 - Custom hooks are JavaScript functions, so they can receive values as parameters and return values.
-- When a function returns an array, the items can be destructured.
-- Bracket syntax allows variables to replace object properties. Example:
+- When a function returns an array, its items can be destructured.
+- Bracket notation allows variables to replace object properties. Example:
 
 ```javascript
 const myProperty = "secretKey";

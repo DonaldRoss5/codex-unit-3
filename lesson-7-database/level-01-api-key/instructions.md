@@ -19,13 +19,13 @@ Accessing `sessionStorage` is slightly different in React websites.
 7. In `src/components/`, view `Main.jsx`.
 8. In the `main` tag, add a `form` tag, a password `input` with the `name` attribute, a `label` tag, and a submit `button`. This will get an `apiKey` from the user.
 9. Use `useState()` and array destructuring to create `apiKey` and `setApiKey`. This will store the API key from the user.
-10. Under the `form` tags, add an `output` tag that renders `apiKey`.
+10. Below the `form`, add an `output` tag that renders `apiKey`.
 11. View the page to make sure it runs without errors.
 12. In the `Main` function and under the `return` statement, create the function `handleSubmit`.
 13. In `handleSubmit`, accept the `event` object and prevent default form behavior.
 14. Add `const form = event.target;`.
 15. Add `const value` and let it be the API key that the user submitted.
-16. Store `value` with `sessionStorage`.
+16. Use `sessionStorage` to store `value`.
 17. Use `setApiKey` to save `value` in the state variable `apiKey`.
 18. In the `form` tag, add the attribute `onSubmit={handleSubmit}`.
 19. View the page to make sure it runs without errors.
