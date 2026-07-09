@@ -1,1 +1,3 @@
-console.log("npm install npx timedout try connection to internet to run ");
+console.log(
+  "The npx command can run modules directly to the terminal whether they are installed or not ",
+);
