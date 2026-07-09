@@ -27,13 +27,13 @@ Being able to store and access your own data programmatically will help make you
 15. Install these packages - `prisma@6` and `dotenv`.
 16. Initialize Prisma in the terminal - `npx prisma init`
 17. Observe that these files were generated - `prisma.config.ts`, `prisma/schema.prisma`, `.gitignore`, and `.env`.
-18. In `.schema.prisma`, change the `provider` to `prisma-client-js`, and delete the output line - `output   = "../generated/prisma"`
+18. In `.schema.prisma`, change the `provider` to `prisma-client-js`. This will generate a client for JavaScript.
 19. In `.env`, replace the string for `DATABASE_URL` with the `Connection string` that you copied from Supabase `Session pooler`.
-20. In the connection string, replace `[YOUR-PASSWORD]` with the database password you created.
+20. In the connection string, replace `[YOUR-PASSWORD]` with the database password you created (or generated).
 21. Synchronize Prisma with your database - `npx prisma db pull`
-22. Generate a client to connect to your database - `npx prisma generate`
-23. Observe that `@prisma/client` is automatically installed and added to `package.json`.
-24. In `script.js`, import the client - `import { PrismaClient } from "@prisma/client";`
+22. Generate a client to connect to your database - `npx prisma generate`.
+23. Observe that the `generated` folder is created and contains the client, and `@prisma/client` is automatically installed and added to `package.json`.
+24. In `script.js`, import the client - `import { PrismaClient } from "./generated/prisma/client.js";`
 25. Then create a client that connects to your database - `const prisma = new PrismaClient();`
 26. Then get data from your `subjects` table - `const results = await prisma.subjects.findMany();`
 27. Use `console.log` to view the `results`.
@@ -42,22 +42,25 @@ Being able to store and access your own data programmatically will help make you
 
 ## More Information
 
-- [Supabase website](https://supabase.com/)
-- [Pooler session mode](https://supabase.com/docs/guides/database/connecting-to-postgres#pooler-session-mode)
-- [Prisma website](https://www.prisma.io/)
 - The file `.env` is used to store confidential information.
 - The `.env` is usually listed in `.gitignore`, which means the confidential information will not be copied to the repository.
 - If you lose the database password, a new one can be generated. There is a `Reset password` button next to the `Connection string` in Supabase.
+- The `PrismaClient` is accessible from the `generated` folder.
 - The tables and fields in your Supabase database will be accessible from the `PrismaClient`.
 - Prisma version 6, or `prisma@6`, is compatible with more databases than the latest version of Prisma (for now).
+- [Supabase website](https://supabase.com/)
+- [Pooler session mode](https://supabase.com/docs/guides/database/connecting-to-postgres#pooler-session-mode)
+- [Prisma website](https://www.prisma.io/)
 
 ## Usage Tips
 
 - In the terminal, run `npm init` in the folder you want to initialize NPM.
 - In `package.json`, `type: "module"` allows the use of `import` statements in JavaScript.
 - The `dotenv` package is used by Prisma to access values in `.env`.
+- The `npx` command runs NPM packages directly in the terminal.
 
 ## Hints
 
 - Prisma is one of the many ways to connect to a database, but it can connect to different types of databases.
 - Supabase has it's own package, but it only connects to Supabase databases.
+- By default, Prisma generates clients in TypeScript.
