@@ -1,9 +1,3 @@
-const Note [
-
-lecture: 618,
-
-page: 24,
-];
-
-
-
+console.log(
+  "gitignore is used to ignore files and folders that should not be trackded by source control",
+);
