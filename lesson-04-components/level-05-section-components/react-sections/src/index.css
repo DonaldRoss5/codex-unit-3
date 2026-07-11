@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  background-color: aqua;
+}
+
+html {
+  background-color: green;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  font-size: 40px;
+}
