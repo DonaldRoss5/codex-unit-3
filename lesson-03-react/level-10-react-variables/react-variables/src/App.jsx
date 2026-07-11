@@ -5,8 +5,10 @@ import heroImg from "./assets/hero.png";
 import "./App.css";
 
 function App() {
-  const message1 = "To create React Variables";
-  const message2 = "To use React Variables";
+  const message1 =
+    "To create React Variables declare a variable using const and then add string";
+  const message2 =
+    "To use React Variables insert the variable into a tag ex: <p> {message} <p/>";
   return (
     <main>
       <h1>React Variables</h1>
