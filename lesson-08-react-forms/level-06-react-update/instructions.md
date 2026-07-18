@@ -24,7 +24,7 @@ Dynamically use React to perform CRUD operations on a database with an online fo
 12. After the `return` statement, add the `async` function `handleSubmit` that accepts the `event` object and prevents default form behavior.
 13. In `Update.jsx`, use `useUpdate`, pass it the `prisma` object, and destructure its items into `data` and `handleSubmit`. In the `form` tag, add the attribute `onSubmit={handleSubmit}`.
 14. View the website pages. After fixing import errors, observe that the Web Client page renders.
-15. In `useUpdate.jsx`, find products in `handleSubmit`: Add `const form = event.target`. Add a `where` object to contain the product ID from `form.elements`. The `where` object will help find a product by ID.
+15. In `useUpdate.js`, update a product in `handleSubmit`: Add `const form = event.target`. Add a `where` object to contain the product ID from `form.elements`. The `where` object will help find a product by ID.
 16. Add `const data = {}`. It will contain values to update.
 17. Use the `prisma` object to update the `products` table with `update({where, data})`. That is property shorthand syntax. Then save the result in the `result` variable. Note that only 1 result will be provided.
 18. View the Web Client page. With a `debugger`, observe that the database will not return a `result` when a product ID is not provided or when product data is not provided.
@@ -32,7 +32,7 @@ Dynamically use React to perform CRUD operations on a database with an online fo
 20. For the `data` object, only add values if they were provided by the user: Add the `name` property if the user provided a product name. Add the `price` property if the user provided a max price. Add the `src` property if the user provided an image source. Example: `if (productName) data.name = productName;`
 21. View the Web Client page. With a `debugger`, observe how `data` changes when the user inputs different values. Observe that the database only returns the updated `result`. It is an object, not an array.
 22. In `handleSubmit`, after getting `result`, add `setData([result])`. That will store an array with the `result` object in it. `WebClient` expects results to be an array.
-23. Let `Update` give `WebClient` the `result`: Track the update phase with `useEffect`, `componentDidMount`, and `[data]` for dependencies. This will be used to send `data` whenever it changes. Add the function `componentDidMount` and an `if` statement that checks for `data`. In the `if` code block, use `setData` to send the `result` to `WebClient`.
+23. Let `Update` give `WebClient` the `result`: Track the update phase with `useEffect`, `componentDiUpdate`, and `[data]` for dependencies. This will be used to send `data` whenever it changes. Add the function `componentDiUpdate` and an `if` statement that checks for `data`. In the `if` code block, use `setData` to send the `result` to `WebClient`.
 24. In `WebClient.jsx`, add `debugger` to the function `toDetails` to view `item` properties. Render each `item` with `key`, `Fragment`, `dt`, `dd`, and `img`.
 25. View the Web Client page. After fixing any errors, observe that the updated product is rendered.
 26. Add `debugger` breakpoints to `WebClient`, `Update`, `componentDidUpdate` in `Update.jsx`, `useUpdate`, and `handeSubmit` in `useUpdate.js`. Observe how these variables transfer information between components and custom hooks - `prisma`, `setData`, and `data`.
