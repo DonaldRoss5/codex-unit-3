@@ -1,4 +1,4 @@
-# No State
+sz# No State
 
 ## Objective
 
@@ -22,7 +22,7 @@ Knowing the limitations of stateless variables in React will help you understand
 10. Add a `p` tag that renders a message.
 11. Let the message explain stateless variables and what happens when the button is clicked.
 12. Inside of the `Main` function and underneath the `return` statement, create a function called `handleClick`.
-13. Let `handleClick` accept an `event` object and prevent default behavior.
+13. Let `handleClick` accept an `event` object and prevent default behavior.i
 14. In `handleClick`, add `debugger` and increment the value of `count`.
 15. Use `onClick` to attach `handleClick` to the `button`.
 16. View the page in the browser.

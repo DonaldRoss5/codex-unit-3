@@ -11,16 +11,14 @@ Handling events with React components makes them more dynamic.
 ## Complete these tasks
 
 1. In your system's file explorer or file picker, copy your `react-template` folder into this level folder. The template should render `Header`, `Main`, and `Footer` components.
-2. In this level folder, rename `react-template` to `react-events`.
-3. In the terminal, navigate to the `react-events` folder.
-4. Start the Vite server and open the React Debugger browser. You may need to install `node_modules`.
+2. In this level folder, rename `react-template` to `react-events`.fDebugger browser. You may need to install `node_modules`.
 5. In the `src/components/` folder, view the `Main` component.
 6. Add a `button` tag that says `Click event`.
 7. Outside and underneath the `Main` function, create a function called `handleClick`.
 8. Let `handleClick` accept an `event` object.
 9. Let `handleClick` prevent default behavior.
 10. In `handleClick`, add `debugger` and use `console.log` to display a message.
-11. Let the message explain how to use the click event handler in React.
+11. Let the message explain how to use the click event handler in React.f
 12. On the `button` tag, add the attribute `onClick={handleClick}`.
 13. View the page in the browser.
 14. Click on the button. The debugger should activate when the button is clicked.
