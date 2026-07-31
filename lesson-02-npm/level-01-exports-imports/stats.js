@@ -9,4 +9,4 @@ export function stats(a, b) {
 }
 
 
-NOTES: Review how to NUMBER when using console.log() and running script in terminal.
+// NOTES: Review how to NUMBER when using console.log() and running script in terminal.
