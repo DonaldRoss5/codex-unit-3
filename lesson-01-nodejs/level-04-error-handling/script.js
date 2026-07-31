@@ -1,10 +1,19 @@
 console.log("Attempting to access browser features...");
 
+// try {
+//   localStorage.setItem("myCar", "BMW");
+//   const pTag = document.querySelector("p");
+// } catch (error) {
+//   console.log(
+//     "There is an error bc of the localStorageA script wont run bc it references undefined objects",
+//   );
+// }
+
 try {
   localStorage.setItem("myCar", "BMW");
   const pTag = document.querySelector("p");
 } catch (error) {
   console.log(
-    "There is an error bc of the localStorageA script wont not run bc it references undefined objects",
+    "There is an error bc localStorage will not run bc it references undefined objects",
   );
 }
