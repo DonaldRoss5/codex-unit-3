@@ -23,6 +23,17 @@ const models = [
   "escalade",
 ];
 
+// function showItems(anyArray) {
+//   for (let index = 0; index < anyArray.length; index++) {
+//     const item = anyArray[index];
+//     const itemNumber = index + 1;
+//     console.log(`${itemNumber}. ${item}`);
+//   }
+// }
+
+// showItems(models);
+// showItems(cars);
+
 function showItems(anyArray) {
   for (let index = 0; index < anyArray.length; index++) {
     const item = anyArray[index];
@@ -30,6 +41,4 @@ function showItems(anyArray) {
     console.log(`${itemNumber}. ${item}`);
   }
 }
-
-showItems(models);
 showItems(cars);
