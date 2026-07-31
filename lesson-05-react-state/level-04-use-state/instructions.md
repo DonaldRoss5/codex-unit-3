@@ -39,7 +39,7 @@ React can use stateful variables to store values that need to persist.
 
 ## More Information
 
-- A stateful variable in React preserves its value between function calls. Remember, React components are functions.
+- A stateful variable in React preserves its value between function calls. Remember,    
 - `useState` is a function that accepts an initial value.
 - `useState` return an array with the current value and a function to change the value.
 - The first item of the array is a stateful value.
