@@ -1,1 +1,1 @@
-export default "hello world, my name is and i am a developer";
+export default "hello world, my name is Donald and i am a developer";
