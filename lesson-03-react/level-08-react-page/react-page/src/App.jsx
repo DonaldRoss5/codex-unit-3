@@ -13,7 +13,7 @@ function App() {
       </p>
       <img src="https://www.nike.com/" alt="Nike"/> 
       <img src="https://www.jdsports.com/" alt="JD Sports"/> 
-      <img src="https://www.finishline.com/" alt="Finish Line"/>
+      <img src="https://www.finishline.com/" alt="https://www.finishline.com/"/>
     </main>
   );
 }
