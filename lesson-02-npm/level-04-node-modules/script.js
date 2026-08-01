@@ -5,6 +5,15 @@ import { totalmem } from "node:os";
 import { machine } from "node:os";
 import { platform } from "node:os";
 
+
+// In the terminal, navigate to this folder and run script.js
+
+// In script.js, import resolve and parse from node:path.
+
+import { parse } from "node:path";
+import { resolve } from "node:path";
+
+
 // Use those functions and save their return values in descriptive variables.
 
 const cpuInfo = cpus();
@@ -23,15 +32,10 @@ console.log(platformInfo);
 
 // In script.js, import resolve and parse from node:path.
 
-import { parse } from "node:path";
-import { resolve } from "node:path";
-
-// Use the functions and save their return values in descriptive variables.
-
-const pathParts = parse(filepath);
 const filepath = resolve("./script.js");
+const pathParts = parse(filepath);
 
 // Use console.log to display the value of each variable.
 
-console.log(pathParts);
 console.log(filepath);
+console.log(pathParts);
