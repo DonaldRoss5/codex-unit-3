@@ -1,4 +1,12 @@
 h1 {
-color: blue;
+  color: blue;
+}
 
+#pictures {
+  display: flex;
+}
+
+img {
+  flex: 1;
+  width: 30%;
 }
