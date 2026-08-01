@@ -9,8 +9,13 @@ function App() {
     <main>
       <h1>React Template </h1>
       <p>
-        To create a React Template, scaffold a React JavaScript project with
-        vite; delete the contents of the App function
+        To create a React Template use npm create and a project type to scaffold
+        a project. Example: npm create some-type To stop the Vite server, in the
+        terminal, type q then press ENTER. To manually start a Vite server, in
+        the terminal, navigate to the project folder, then run the dev script.
+        Example: npm run dev
+
+        s.n to go straight a vite already created npx Vite
       </p>
     </main>
   );
