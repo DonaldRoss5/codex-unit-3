@@ -1,9 +1,9 @@
-export default function Footer (){
+export function Footer (props){
 
-return (
+return 
 
 <footer>website by Donald Ross</footer>
-)
+
 
 }
 
