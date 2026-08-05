@@ -1,9 +1,6 @@
 export function Footer (props){
-
-return 
-
-<footer>website by Donald Ross</footer>
-
-
+return (
+<footer>{props.copyright}</footer>
+);
 }
 
