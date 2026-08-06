@@ -1,14 +1,17 @@
 export function Main() {
   return (
     <main>
-      <p>Explain how to make semati template</p>
-      <button onClick={handleClick}>Click event;</button>
+      <button onClick={handleClick}>Click event</button>
     </main>
   );
-
-  function HandleClick(event) {
-    debugger;
-    event.preventDefault();
-    console.log("Explain use click event in React");
-  }
 }
+function handleClick(event) {
+  event.preventDefault();
+  debugger;
+  console.log(
+    "In React, you handle click events by adding an onClick attribute to any HTML element and assigning it a handler function. The handler receives a synthetic event object, which wraps the native browser event. You can call event.preventDefault() to stop the element's default behavior, such as a form submitting or a link navigating. The function runs every time the element is clicked."
+  );
+}
+
+
+export default Main;
