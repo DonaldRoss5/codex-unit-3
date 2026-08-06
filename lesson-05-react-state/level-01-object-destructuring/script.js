@@ -1,4 +1,3 @@
-
 import { props } from "./props.js";
 
 const { title, message } = props;
