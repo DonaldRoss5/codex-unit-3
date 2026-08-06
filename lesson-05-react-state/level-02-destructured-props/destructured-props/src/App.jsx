@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header title="Destructure Props" />
-      <Main message="How to destructure props - replace the props variable with {} the add a list of properties to destructure" />
+      <Main message="How to destructure props - replace the props variable with {} then add a list of properties to destructure" />
       <Footer />
     </>
   );
