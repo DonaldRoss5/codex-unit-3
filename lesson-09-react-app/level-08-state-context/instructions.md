@@ -6,7 +6,7 @@ Use the StateContext component to avoid prop drilling.
 
 ## Benefits
 
-The StateContext component gives child components access to state variables in parent components.
+The StateContext component gives its child components access to shared state variables.
 
 ## Complete these tasks
 

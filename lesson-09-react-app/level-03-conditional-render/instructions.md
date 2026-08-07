@@ -13,7 +13,7 @@ There are times when components should be shown, and when they should be hidden.
 1. NOTE: This level requires `prisma-template` and `client-template` from a previous level. Complete these tasks from scratch. Do not copy/paste unless the task permits it. Code for TW Elements can be copied/pasted.
 2. Set up the Prisma web client: In your system's file explorer or file picker, copy your `prisma-template` folder from a previous level into this level folder. In the terminal, navigate to `prisma-template` and run `script.js`. It should work without errors after `node_modules` are installed. You may need to update it to work with foreign keys and join tables.
 3. Set up the website: In your system's file explorer or file picker, copy your `client-template` folder from a previous level into this level folder. In this level folder, rename `client-template` to `conditional-render`. Change the title of the website to `Conditionally Hide or Show React Components`. In the terminal, navigate to the `conditional-render` folder. Start the Vite server and open a React Debugger browser to the URL provided by Vite. View the website pages. They should work without errors after `node_modules` are installed.
-4. In the `src/components/` folder, create `Login.jsx` that exports the `Login` component. Let it return a `form` tag with TWE inputs for an email, password, and a login/submit button. Initialize the inputs with `useInputTWE`.
+4. In the `src/components/` folder, create `Login.jsx` that exports the `Login` component. Let it return a `form` tag with a `fieldset` tag, `legend` tag, and TWE inputs for an email, password, and a login/submit button. Initialize the inputs with `useInputTWE`.
 5. In `WebClient.jsx`, render `Login` below the `DbPassword` component.
 6. View the website pages. After fixing import errors, observe that the Web Client page renders the `Login` form.
 7. `Login` needs to send login info to `WebClient`: In `WebClient.jsx`, add `const [login, setLogin] = useState();`. This will store the login info. Where `Login` is rendered, add the attribute/prop `setLogin={setLogin}`. This gives the setter to `Login`.
@@ -32,7 +32,7 @@ There are times when components should be shown, and when they should be hidden.
 20. In the `return` where `Login` is rendered, replace the whole component with `{component}`. This will display the `component` variable and whatever HTML it contains.
 21. View the Web Client page. After fixing any errors, observe that the `Login` component renders when a user is not logged in, then the `Login` component disappears when a user is logged in.
 22. Add `debugger` breakpoints to `WebClient`, `Login`, `handleSubmit` in `Login`, `useLogin`, and `handleLogin`. Observe how these variables transfer information between components and custom hooks - `login` and `component`.
-23. In the `Home` component, add a `p` tag that explains how to authenticate a user conditionally render components in React.
+23. In the `Home` component, add a `p` tag that explains how to authenticate a user and conditionally render components in React.
 24. View the website pages and make sure they run without errors.
 
 ## More Information
