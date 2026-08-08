@@ -21,3 +21,4 @@ export function Main() {
     setCount(count + 1);
   }
 }
+export default Main; 
