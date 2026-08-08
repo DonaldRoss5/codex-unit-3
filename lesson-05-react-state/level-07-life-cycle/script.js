@@ -1,8 +1,9 @@
 const messages = [
-  "TODO: Explain component lifecycle",
-  "TODO: Explain the mount phase ",
-  "TODO: Explain the update phase ",
+  "component lifecycle has 3 phases",
+  "mount phase is when a component is added to the DOM, the component has mounted and appears in the DOM tree.",
 
-  "TODO: Explain the unmount phase",
+  "TODO:update phase is when a component changes (text, color, images,etc, the component has updated (something in the DOM tree changes ",
+
+  "TODO: unmount phase is when hen a component is removed from the DOM, the component has unmounted (it doesn't appear in the DOM tree) ",
 ];
 console.log(messages);
