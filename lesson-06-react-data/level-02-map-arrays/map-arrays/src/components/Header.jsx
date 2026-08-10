@@ -1,7 +1,8 @@
-export default function Header() {
+export function Header() {
   return (
     <header>
-      <h1>Semantic-Template</h1>
+      <h1>Map Arrays to React Elements</h1>
     </header>
   );
 }
+export default (Header)
