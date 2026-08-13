@@ -2,6 +2,7 @@
 
 import { cpus } from "node:os";
 import { totalmem } from "node:os";
+import { freemem } from "node:os";
 import { machine } from "node:os";
 import { platform } from "node:os";
 
@@ -18,6 +19,7 @@ import { resolve } from "node:path";
 
 const cpuInfo = cpus();
 const totalmemInfo = totalmem();
+const freememInfo = freemem();
 const machineInfo = machine();
 const platformInfo = platform();
 
@@ -25,6 +27,8 @@ const platformInfo = platform();
 
 console.log(cpuInfo);
 console.log(totalmemInfo);
+console.log(freememInfo
+);
 console.log(machineInfo);
 console.log(platformInfo);
 

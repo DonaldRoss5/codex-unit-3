@@ -42,3 +42,4 @@ function showItems(anyArray) {
   }
 }
 showItems(cars);
+showItems(models);

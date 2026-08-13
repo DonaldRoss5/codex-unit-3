@@ -1,7 +1,11 @@
-export default function Header() {
+import { useState } from "react";
+
+export function Header() {
   return (
     <header>
       <h1>Stateful Variables</h1>
     </header>
   );
 }
+
+export default Header

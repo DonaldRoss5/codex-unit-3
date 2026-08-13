@@ -20,7 +20,8 @@ React can use stateful variables to store values that need to persist.
 8. Add `debugger` on the line after `useState`.
 9. View the page in the browser. The debugger should stop in `Main`.
 10. Inspect the value of `results`. It should be an array with 2 items.
-11. Save the first item in variable called `count`. This is the stateful variable.
+11. Save the first item in q
+variable called `count`. This is the stateful variable.
 12. Save the second item in a variable called `setCount`. This is the setter.
 13. In the `main` tag, add a `button` tag that says `Click counter`.
 14. Add a `p` tag that renders the value of `count`.

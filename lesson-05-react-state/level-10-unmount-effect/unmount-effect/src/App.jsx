@@ -7,6 +7,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
+  debugger
   const [unmount, setUnmount] = useState(false);
 
   let mainComponent = <Main setUnmount={setUnmount} />;
@@ -14,7 +15,7 @@ function App() {
   if ((unmount === true)) {
     mainComponent = <></>;
   }
-debugger
+
   return (
     <>
       <Header />
@@ -23,5 +24,4 @@ debugger
     </>
   );
 }
-
-export default App;
+ export default App;

@@ -11,7 +11,10 @@ function App() {
         <h1>React Fragment</h1>
       </header>
       <main>
-        <p>Explain React Fragments: </p>
+        <p>
+          Explain React Fragments: is used to group multiple tags; react only
+          allows one{" "}
+        </p>
       </main>
       <footer>Website by Donald Ross</footer>
     </>

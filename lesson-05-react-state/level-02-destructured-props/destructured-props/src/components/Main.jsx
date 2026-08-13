@@ -1,7 +1,8 @@
-export function Main({ message }) {
+export function Main({message}) {
   debugger;
   return (
-    <main>
+    <main message="add curly braces in the attribute alsos let header accept prarameter a debugger" >
+
       <p>{message}</p>
     </main>
   );

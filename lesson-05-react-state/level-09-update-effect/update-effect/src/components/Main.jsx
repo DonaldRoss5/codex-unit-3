@@ -1,30 +1,32 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-export function Main() {
+function Main() {
   const [didMount, setDidMount] = useState(false);
 
-  const [update, setDidUpdate] = useState(false);
+  const [didUpdate, setDidUpdate] = useState(false);
   const [message, setMessage] = useState("Main component hasn't updated.");
 
-  useEffect(function componentDidMount() {
+  function componentDidMount() {
+    debugger;
     setDidMount(true);
-  }, []);
-
-  useEffect(
-    function componentDidUpdate() {
-      if ((didMount = true)) {
-        setDidUpdate(true);
-      }
-    },
-    [didMount, message],
-  );
-
-  function handleClick() {
-    setMessage("The Main component has updated.");
   }
 
-  debugger;
+  useEffect(componentDidMount, []);
 
+  function componentDidUpdate() {
+    debugger;
+    if ((didMount = true)) {
+      setDidUpdate(true);
+    }
+  }
+  useEffect(componentDidUpdate,[didMount, message]);
+
+    function handleClick() {
+      debugger;
+      setMessage("The Main component has updated.");
+    };
+
+  debugger;
   return (
     <main>
       <p>{"didMount: " + didMount}</p>

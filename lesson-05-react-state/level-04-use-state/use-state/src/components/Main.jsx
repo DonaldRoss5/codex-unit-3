@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Main() {
+export function Main() {
   const results = useState(0);
   debugger;
   return (
@@ -19,5 +19,9 @@ function handleClick() {
   debugger;
   setCount = count + 1;
 }
+
+export default Main
+
+
 
 // 7,11,12
