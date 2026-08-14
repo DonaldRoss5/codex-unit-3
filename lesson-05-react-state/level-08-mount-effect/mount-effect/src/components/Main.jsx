@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function Main (){
+ function Main (){
 const [didMount ,setDidMount ] = useState(false);
 useEffect(componentDidMount, []);
 debugger;
