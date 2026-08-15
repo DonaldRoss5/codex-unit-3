@@ -17,6 +17,18 @@ for (let index = 0; index < animals.length; index++) {
   console.log(`${animalNumber}. ${myAnimals}`);
 }
 
+
+
+for (let index = 0; index < cars.length; index++){
+const myAnimals = animals[index];
+const animals = index + 1;
+console.log(`${animalNumber}. ${myAnimals}`);
+
+}
+
+
+
+
 // const cars = [
 // "camry",
 // "mercededs",
