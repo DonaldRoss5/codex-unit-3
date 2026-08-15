@@ -1,9 +1,11 @@
-import { useEffect } from "react";
-import { Collapse, initTWE } from "tw-elements";
+import { useCollapseTWE } from "../hooks/useCollapseTWE"
+
 
 export default function Navbar() {
-  useEffect(componentDidMount, []);
+useCollapseTWE();
+
   return (
+  
     // <!-- Main navigation container -->
     <nav
       className="relative flex w-full flex-nowrap items-center justify-between bg-zinc-50 py-2 text-neutral-500 shadow-dark-mild hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4"
@@ -108,8 +110,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-
-  function componentDidMount() {
-    initTWE({ Collapse });
-  }
 }
