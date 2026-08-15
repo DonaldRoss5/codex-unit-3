@@ -1,4 +1,4 @@
-export default function Footer (){
+export function Footer (){
 
 return (
 
@@ -7,3 +7,4 @@ return (
 
 }
 
+export default Footer

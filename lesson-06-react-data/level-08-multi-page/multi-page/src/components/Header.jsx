@@ -1,7 +1,13 @@
-export default function Header() {
+export function Header() {
   return (
     <header>
-      <h1>Semantic-Template</h1>
+      <nav>
+        <a href="/">Home</a> | <a href="/about">About</a>
+      </nav>
+
+      <h1>Multi-Page Website with React</h1>
     </header>
   );
 }
+
+export default Header;
